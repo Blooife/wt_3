@@ -1,0 +1,85 @@
+@font-face {
+    font-family: OpenSans; /* Имя шрифта */
+    src: url(fonts/OpenSans-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+html{
+    font-family: OpenSans;
+    letter-spacing: 2px;
+}
+header{
+    background-color: black;
+}
+
+body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+.header_wrapper{
+    height: 120px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.header_wrapper .line{
+    background-color: gray;
+    height: 60%;
+    border-left: 2px solid gray;
+}
+.header_wrapper a{
+    color: white;
+    font-size: 24px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.header_wrapper a:hover{
+    color: gray;
+}
+
+.header_wrapper h6{
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+}
+
+footer{
+    margin: auto;
+    height: 120px;
+    background: black;
+}
+
+.footer-wrapper{
+    height: 50%;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin: auto;
+    padding-top: 20px;
+}
+.footer-wrapper img{
+    padding-right: 40px;
+}
+footer div .line{
+    background-color: gray;
+    height: 60px;
+    border-left: 2px solid gray;
+}
+
+.footerimg{
+    padding-left: 40px;
+}
+
+.footerimg:hover{
+    color: white;
+    width: 45px;
+    height: 45px;
+}

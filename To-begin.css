@@ -1,0 +1,76 @@
+.firstpage{
+    width: 100%;
+    height: 500px;
+
+}
+
+.firstpage-wrapper{
+    height: 80%;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.firstpage h2{
+    font-size: 36px;
+    margin-top: 100px;
+}
+.firstpage .text-container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.firstpage p{
+    font-size: 20px;
+    color: gray;
+    text-align: center;
+    line-height: 35px;
+}
+.firstpage .line{
+    height: 2px;
+    width: 50%;
+    background-color: gray;
+    margin: auto;
+}
+
+.secondpage{
+    width: 100%;
+}
+
+.secondpage-wrapper{
+    padding-top: 100px;
+    background-color: rgba(245, 241, 241, 0.73);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+}
+
+.secondpage-wrapper div{
+    margin: auto;
+}
+
+.secondpage-wrapper p{
+    width: 480px;
+    height: 140px;
+    text-align: center;
+}
+
+.secondpage-wrapper h3{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.secondpage-wrapper a{
+    text-decoration: none;
+}
+
+.secondpage-wrapper h3:hover{
+    color: gray;
+}
+
+

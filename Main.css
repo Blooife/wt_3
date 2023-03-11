@@ -1,0 +1,220 @@
+.firstpage{
+    height: 600px;
+    width: 100%;
+}
+.firstpage-wrapper{
+    height: 100%;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+
+}
+
+.firstpage .img{
+    margin: auto;
+}
+
+.firstpage .text-container{
+    margin: auto;
+    height: 90%;
+    width: 50%;
+    text-align: left;
+
+}
+
+.firstpage .text-container h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.firstpage .text-container p{
+    width: 70%;
+    font-size: 16px;
+    font-style: italic;
+    color: rgb(122,122,122);
+}
+
+@media screen and (max-device-width:1200px) {
+    .firstpage .text-container p{
+        width: 90%;
+    }
+}
+
+.secondpage{
+    width: 100%;
+    background-image: url("images/bg.jpg");
+    display: block;
+    position: relative;
+    align-items: center;
+    height: 600px;
+}
+
+.secondpage-wrapper{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+
+}
+
+.secondpage-wrapper .images{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.secondpage-wrapper img{
+    margin: 0;
+    margin-right: 20px;
+}
+
+.white-box{
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    bottom: 70%;
+    width: 240px;
+    height: 240px;
+    background-color: white;
+    box-shadow: 4px 4px 4px 4px  grey;
+}
+
+.white-box-wrapper{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.white-box h3{
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.white-box p{
+    font-size: 12px;
+    width: 90%;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.btn {
+    display: inline-block; /* Строчно-блочный элемент */
+    background: black; /* Серый цвет фона */
+    color: white; /* Белый цвет текста */
+    padding: 0.3rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+
+.btn:hover{
+    background: gray;
+}
+
+.thirdpage{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.thirdpage-wrapper{
+    height: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.thirdpage-wrapper h2{
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.thirdpage-wrapper p{
+    font-size: 24px;
+    width: 60%;
+    text-align: center;
+    color: black;
+    letter-spacing: 3px;
+    margin: 0;
+}
+
+.thirdpage-wrapper .line{
+    height: 1px;
+    width: 70%;
+    background-color: black;
+}
+
+.fourthpage{
+    height: 450px;
+    width: 100%;
+    background-color: rgb(200, 200, 202);
+}
+
+.fourthpage-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fourthpage-wrapper h2{
+    color: black;
+    letter-spacing: 2px;
+    font-size: 35px;
+}
+
+.fourthpage-wrapper input{
+    width: 400px;
+    height: 30px;
+    color: black;
+    background-color: rgb(200, 200, 202);
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-bottom: 0px;
+    margin-top: 1px;
+    outline: none;
+}
+
+.fourthpage-wrapper textarea{
+    width: 400px;
+    height: 120px;
+    color: black;
+    background-color: rgb(200, 200, 202);
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    margin-top: 1px;
+    outline: none;
+}
+
+.fourthpage-wrapper .btn{
+    display: inline-block; /* Строчно-блочный элемент */
+    background: black;
+    color: white; /* Белый цвет текста */
+    padding: 0.3rem 6.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    letter-spacing: 2px;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+}
+
+.fourthpage-wrapper .btn:hover{
+    background-color: gray;
+}
+
+
