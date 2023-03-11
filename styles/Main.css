@@ -44,7 +44,7 @@
 
 .secondpage{
     width: 100%;
-    background-image: url("images/bg.jpg");
+    background-image: url("../images/bg.jpg");
     display: block;
     position: relative;
     align-items: center;
