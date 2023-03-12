@@ -1,0 +1,20 @@
+<section>
+    <div class="wrapper">
+        <h1>{{ name }}</h1>
+        <h6>{{ description }}</h6>
+        <div class="container">
+            <img data-image-width="480" data-image-height="320" src="images/{{ src }}">
+            <div class="list">
+                <h6>Steps:</h6>
+                <ol>
+                    {% set i = 0 %}
+                    {% for step in steps %}
+                        <li>{{ steps[i] }}</li>
+                        {% set i = i + 1 %}
+                    {% endfor %}
+
+                </ol>
+            </div>
+        </div>
+    </div>
+</section>

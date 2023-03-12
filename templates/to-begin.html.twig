@@ -1,4 +1,3 @@
-
 <section class="firstpage">
     <div class="firstpage-wrapper">
         <h2>6 Yoga Poses You Need To Know<br></h2>
@@ -9,50 +8,12 @@
     </div>
 </section>
 
-<!--<section class="secondpage">
-    <div class="secondpage-wrapper">
-        <div class="column1">
-            <img data-image-width="480" data-image-height="320" src="../images/child.jpg">
-            <a href="#"><h3> Child’s Pose</h3></a>
-            <p> This calming pose is a good default pause position. You can use child’s pose to rest and refocus before continuing to your next pose. It gently stretches your lower back, hips, thighs, knees and ankles and relaxes your spine, shoulders and neck.</p>
-
-            <img data-image-width="480" data-image-height="320" src="images/tree.jpg">
-            <a href="#"><h3>Tree Pose</h3></a>
-            <p> Beyond helping improve your balance, it can also strengthen your core, ankles, calves, thighs
-            and spine.</p>
-
-
-            <img data-image-width="480" data-image-height="320" src="../images/plank.jpg">
-            <a href="#"> <h3>Plank Pose</h3></a>
-            <p> A commonly seen exercise, plank helps build strength in the core, shoulders, arms and legs.</p>
-        </div>
-
-        <div class="column2">
-            <img data-image-width="480" data-image-height="320" src="../images/tree.jpg">
-            <a href="#"> <h3> Triangle Pose</h3></a>
-            <p> Triangle, which is a part of many yoga sequences helps build strength in the legs and
-            stretches the hips, spine, chest, shoulders, groins, hamstrings and calves.</p>
-
-            <img alt="" data-image-width="480" data-image-height="320" src="../images/bridge.jpg">
-            <a href="#"><h3> Bridge Pose</h3></a>
-            <p> This is a back-bending pose that stretches the muscles of the chest, back and neck.
-            It also builds strength in the back and hamstring muscles.</p>
-
-            <img alt="" data-image-width="480" data-image-height="320" src="../images/dog.jpg">
-            <a href="#"><h3> Downward-Facing Dog</h3></a>
-            <p> Downward-facing dog strengthens the arms, shoulders and back while stretching the hamstrings,
-            calves and arches of your feet. It can also help relieve back pain.</p>
-        </div>
-    </div>
-</section>-->
-
-
 <section class="secondpage">
     <div class="secondpage-wrapper">
         <div class="column1">
             {% for i in range (0,2) %}
                 <img data-image-width="480" data-image-height="320" src="{{ poses[i]['src'] }}">
-                <a href="#"><h3>{{ poses[i]['name'] }}</h3></a>
+                <a href="{{ poses[i]['link'] }}"><h3>{{ poses[i]['name'] }}</h3></a>
                 <p> {{ poses[i]['text'] }}</p>
             {% endfor %}
         </div>
@@ -60,7 +21,7 @@
         <div class="column2">
             {% for i in range (3,5) %}
                 <img data-image-width="480" data-image-height="320" src="{{ poses[i]['src'] }}">
-                <a href="#"><h3>{{ poses[i]['name'] }}</h3></a>
+                <a href="{{ poses[i]['link'] }}"><h3>{{ poses[i]['name'] }}</h3></a>
                 <p> {{ poses[i]['text'] }}</p>
             {% endfor %}
         </div>

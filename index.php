@@ -2,7 +2,7 @@
 require_once 'vendor/autoload.php';
 
 
-$loader = new \Twig\Loader\FilesystemLoader('templates'); // указание папки с шаблонами
+$loader = new \Twig\Loader\FilesystemLoader('templates');
 $twig = new \Twig\Environment($loader);
 
 
@@ -14,6 +14,8 @@ echo $twig->render("base.html.twig", [
     'title' =>$title,
     'url' =>$url, 'style' =>$style
 ]);
+
+
 
 
 
