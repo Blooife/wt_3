@@ -82,7 +82,7 @@ if($u == 'child'){
     $name = "Downward-Facing Dog";
     $description = "This is one of the most common yoga poses.";
     $src = 'dog.jpg';
-    $steps = ['KStart on your hands and knees, with your hands shoulder-distance apart and 
+    $steps = ['Start on your hands and knees, with your hands shoulder-distance apart and 
         your knees under your hips, toes tucked.',
         'Inhale, press evenly into your palms and raise your knees off the ground..',
         'Lift your hips up and back, working to lengthen your spine. ',

@@ -72,14 +72,14 @@ footer div .line{
     background-color: gray;
     height: 60px;
     border-left: 2px solid gray;
+    margin-right: 20px;
 }
 
 .footerimg{
-    padding-left: 40px;
+
+    filter: invert(100%);
 }
 
 .footerimg:hover{
-    color: white;
-    width: 45px;
-    height: 45px;
+    filter: invert(50%);
 }
