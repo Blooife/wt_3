@@ -1,6 +1,8 @@
 <?php
 function check($email) {
-    if(preg_match("/^(?:[a-z0-9]+(?:[-_.]?[a-z0-9]+)?@[a-z0-9_.-]+(?:\.?[a-z0-9]+)?\.[a-z]{2,})$/i", $email)){
+
+    if(preg_match("/((^@)+@(^\.)+(\.\S+)+)/", $email)){
+
         return true;
     }else{
         return false;
