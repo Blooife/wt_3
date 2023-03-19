@@ -7,7 +7,7 @@ $twig = new \Twig\Environment($loader);
 
 
 $title = "To begin";
-$url = 'to-begin.html.twig';
+$template = 'to-begin.html.twig';
 $style = "To-begin.css";
 $poses = [
     [
@@ -53,7 +53,7 @@ $poses = [
 
 echo $twig->render("base.html.twig", [
     'title' =>$title,
-    'url' =>$url, 'style' =>$style, 'poses'=>$poses
+    'template' =>$template, 'style' =>$style, 'poses'=>$poses
 ]);
 
 

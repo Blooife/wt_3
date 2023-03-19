@@ -8,7 +8,7 @@ $twig = new \Twig\Environment($loader);
 
 $u = key($_GET);
 
-$url = 'pose.html.twig';
+$template = 'pose.html.twig';
 $style = "style.css";
 $steps = [];
 $title = '';
@@ -94,7 +94,7 @@ if($u == 'child'){
 }
 
 echo $twig->render("base.html.twig", [
-    'url' =>$url, 'style' =>$style,
+    'template' =>$template, 'style' =>$style,
     'steps' => $steps,
     'title' =>$title, 'name' => $name,
     'description' => $description, 'src' => $src
