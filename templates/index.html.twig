@@ -47,18 +47,18 @@
         <div class="block">
             <h2>Contact Us!</h2>
             <div class="form-wrapper">
-                <form source="email" name="form">
+                <form action="check-email.php" method="post" name="form">
                     <div class="form-contact">
-                        <input type="text" placeholder="Enter your Name"  name="name" required="">
+                        <input type="text" placeholder="Enter your Name" id="inp" name="name" >
                     </div>
                     <div>
-                        <input type="email" placeholder="Enter a valid email address" id="email-3b9a" name="email" required="">
-                    </div>
-                    <div class="u-form-group u-form-message">
-                        <textarea placeholder="Enter your message" rows="4" cols="50" id="message-3b9a" name="message"></textarea>
+                        <input type="text" placeholder="Enter a valid email address" id="inp" name="email">
                     </div>
                     <div>
-                        <a href="#" class="btn">Submit</a>
+                        <textarea placeholder="Enter your message" rows="4" cols="50" name="message"></textarea>
+                    </div>
+                    <div class="but">
+                        <input class="btn" type="submit" value="Submit">
                     </div>
                 </form>
             </div>

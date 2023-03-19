@@ -91,6 +91,9 @@ if($u == 'child'){
         down towards the floor. Firm your outer hips in toward the center.',
         'Keep inhaling and exhaling evenly as you hold the pose.'
     ];
+}else{
+    header("Location: 404.php");
+    exit();
 }
 
 echo $twig->render("base.html.twig", [
