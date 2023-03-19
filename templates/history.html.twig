@@ -24,22 +24,11 @@
             <br>The six branches are:
         </p>
         <ul class="">
+            {% for el in elements %}
             <li>
-                <span style="font-weight: 700;">Hatha yoga:</span>This is the physical and mental branch that aims to prime the body and mind.
+                <b>{{ el.name }}:</b> {{ el.description }}
             </li>
-            <li> <span style="font-weight: 700;">Raja yoga:</span>This branch involves meditation and strict adherence to a series of disciplinary steps known as the eight limbs of yoga.</li>
-            <li>
-                <span style="font-weight: 700;">Karma yoga:</span>This is a path of service that aims to create a future free from negativity and selfishness.
-            </li>
-            <li>
-                <span style="font-weight: 700;">Bhakti yoga:</span>This aims to establish the path of devotion, a positive way to channel emotions and cultivate acceptance and tolerance.<br>
-            </li>
-            <li>
-                <span style="font-weight: 700;">Jnana yoga:</span>This branch of yoga is about wisdom, the path of the scholar, and developing the intellect through study.<br>
-            </li>
-            <li>
-                <span style="font-weight: 700;">Tantra yoga:</span>This is the pathway of ritual, ceremony, or consummation of a relationship.<br>
-            </li>
+            {% endfor %}
         </ul>
     </div>
 </section>
